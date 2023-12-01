@@ -132,7 +132,7 @@ particlesJS('slider',
 
 );
 
-particlesJS('counter',
+particlesJS('slider-counter',
   
   {
     "particles": {

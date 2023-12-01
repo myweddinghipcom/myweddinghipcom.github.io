@@ -198,6 +198,18 @@ $(document).ready(function() {
                 setTimeout(function() {
                 $( "#success").slideUp( "slow" );
                 }, 5000);
+
+                $.ajax({
+                    url: 'http://localhost:6969/test',
+                    method: 'GET',
+                    success: function(response) {
+                      $('#fileContent').text(response.content);
+                    },
+                    error: function() {
+                      console.error('Đã xảy ra lỗi khi lấy nội dung file.');
+                    }
+                  });
+
                 // $.ajax({
                 //     type: "POST",
                 //     url: "/wish",
