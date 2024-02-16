@@ -243,10 +243,6 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 }
 
 /* quote */
-.the-quote-container{
-	height: 415px;
-	width: 100%;
-}
 .the-quote {
     position: relative;
     overflow: hidden;
@@ -259,7 +255,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-attachment: fixed;
-	background-position-x: 300px;
+	/* background-position-x: 300px; */
 
 	@media only screen and (max-width: 935px) {
 		margin-top: 40px !important;
