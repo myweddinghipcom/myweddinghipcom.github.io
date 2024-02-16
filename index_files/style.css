@@ -256,8 +256,8 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 
 	@media (max-width: 799px) {
 		margin-top: 40px;
-		background-position-x: -60px;
-		background-position-y: 70px;
+		background-position-x: -40px !important;
+		background-position-y: 70px !important;
 	}
 
 }
@@ -367,7 +367,7 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 .seperator {
     width: 100%;
     position: absolute;
-    bottom: -10px;
+    bottom: 0px;
     height: fit-content;
     left: 0;
     right: 0;
@@ -708,7 +708,7 @@ section.img-bg-5{
 .seperator{
 	position: absolute;
 	z-index: 10;
-	bottom: -10px;
+	bottom: 0px;
 	width: 100vw;
 	height: fit-content;
 }
