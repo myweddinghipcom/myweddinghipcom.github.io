@@ -254,8 +254,8 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 	background-attachment: fixed;
 	background-position-x: 300px;
 
-	@media (max-width: 799px) {
-		margin-top: 40px;
+	@media only screen and (max-width: 799px) {
+		margin-top: 40px !important;
 		background-position-x: -40px !important;
 		background-position-y: 70px !important;
 	}
